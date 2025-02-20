@@ -1,6 +1,5 @@
 # Asegurar que todos los archivos de texto usen LF
 * text=auto
-
 # Específicos para ciertos tipos de archivos
 *.js text eol=lf
 *.jsx text eol=lf
@@ -10,3 +9,4 @@
 *.md text eol=lf
 *.html text eol=lf
 *.css text eol=lf
+node_modules/next/swc-win32-x64-msvc/next-swc.win32-x64-msvc.node filter=lfs diff=lfs merge=lfs -text
